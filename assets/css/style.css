@@ -1,0 +1,87 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+  }
+
+ul {
+    list-style-type: none;
+}
+
+header h3 {
+    margin-top: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Highscores {
+    color: blueviolet;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+section {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   margin: 0px 150px;
+}
+
+#Rules {
+    width: 580px;
+    text-align: center;
+}
+
+#Start-button {
+    margin-top: 0px;
+}
+
+#Start-button, 
+li {
+    width: fit-content;
+    font-size: large;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    padding: 0px 8px;
+    border-radius: 5%;
+    color: white;
+    background-color: blueviolet;
+}
+
+#Start-button:active,
+li:active {
+    box-shadow: 2px 2px 5px #7c4dfc;
+}
+
+li {
+    margin-top: 5px;
+}
+
+#Answer2,
+#Answer3,
+#Answer4 {
+    /* border-top: 2px solid; */
+    opacity: 0.7;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+ul {
+    margin-top: 16px;
+    margin-right: 150px;
+}
+
+#Question,
+#Question2,
+#Question3,
+#Question4 {
+    margin-top: 0px;
+}
