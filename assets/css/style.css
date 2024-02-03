@@ -43,7 +43,8 @@ section {
 }
 
 #Start-button, 
-li {
+li, 
+#Start-over {
     width: fit-content;
     font-size: large;
     font-weight: bold;
@@ -56,7 +57,8 @@ li {
 }
 
 #Start-button:active,
-li:active {
+li:active,
+#Start-over:active {
     box-shadow: 2px 2px 5px #7c4dfc;
 }
 
@@ -66,7 +68,9 @@ li {
 
 #Answer2,
 #Answer3,
-#Answer4 {
+#Answer4,
+#Answer5,
+#Answer6 {
     /* border-top: 2px solid; */
     opacity: 0.7;
     font-style: italic;
@@ -74,7 +78,8 @@ li {
 
 }
 
-ul {
+ul,
+#Final {
     margin-top: 16px;
     margin-right: 150px;
 }
@@ -82,6 +87,8 @@ ul {
 #Question,
 #Question2,
 #Question3,
-#Question4 {
+#Question4,
+#Question5
+#Done {
     margin-top: 0px;
 }
