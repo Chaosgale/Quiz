@@ -3,7 +3,8 @@ body {
     font-size: 16px;
   }
 
-ul {
+ul,
+ol {
     list-style-type: none;
 }
 
@@ -18,9 +19,17 @@ header {
 
 #Highscores {
     color: blueviolet;
+    cursor: pointer;
+    user-select: none;
 }
 
-h1 {
+#Highscores:active {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+#Main_h1 {
     font-size: 40px;
     margin: 10px;
 }
@@ -43,10 +52,11 @@ section {
 }
 
 #Start-button, 
-li, 
-#Start-over {
+ul li, 
+#Start-over,
+#Submit-button,
+#High-buttons h3 {
     width: fit-content;
-    font-size: large;
     font-weight: bold;
     user-select: none;
     cursor: pointer;
@@ -57,12 +67,38 @@ li,
 }
 
 #Start-button:active,
-li:active,
-#Start-over:active {
+ul li:active,
+#Start-over:active,
+#Submit-button:active,
+#High-buttons h3:active {
     box-shadow: 2px 2px 5px #7c4dfc;
 }
 
+#Score {
+    margin-bottom: 3px;
+}
+
+#Star-over {
+    margin-top: 18.720px;
+}
+
+#Submit_div {
+    display: flex;
+}
+
+#Input_id {
+    height: 23px;
+    margin-top: 17px;
+}
+
+.Input_line {
+    margin-right: 10px;
+}
+
+
+
 li {
+    font-size: large;
     margin-top: 5px;
 }
 
@@ -71,7 +107,6 @@ li {
 #Answer4,
 #Answer5,
 #Answer6 {
-    /* border-top: 2px solid; */
     opacity: 0.7;
     font-style: italic;
     font-weight: bold;
@@ -92,3 +127,38 @@ ul,
 #Done {
     margin-top: 0px;
 }
+
+#High-page {
+    width: 500px;
+    margin-top: 16px;
+    margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#High-buttons {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#High-buttons h3 {
+    margin-right: 13px;
+}
+
+ol li {
+    background-color: rgb(202, 166, 236);
+    width: 500px;
+}
+
+ol {
+    padding: 0px;
+    margin: 0px;
+}
+
+#High-page h1 {
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
